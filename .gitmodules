@@ -1,3 +1,6 @@
 [submodule "submodules/CMakeTools"]
 	path = submodules/CMakeTools
 	url = https://oceasoft.visualstudio.com/Libraries/_git/CMakeTools
+[submodule "submodules/OHTTP"]
+	path = submodules/OHTTP
+	url = https://oceasoft.visualstudio.com/Libraries/_git/OHTTP
