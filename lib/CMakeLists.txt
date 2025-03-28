@@ -10,6 +10,13 @@ add_library(
 	${HEADERS}
 )
 
+target_link_libraries(
+	${PROJECT_NAME}
+	PRIVATE
+	OHTTP
+	OToolsC++
+)
+
 target_include_directories(
 	${PROJECT_NAME}
 	PUBLIC
