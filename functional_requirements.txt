@@ -1,0 +1,2 @@
+- As a user I want to be able to publish a new post.
+- As a user I want to be able to consult all the posts I published.

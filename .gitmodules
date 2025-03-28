@@ -1,0 +1,3 @@
+[submodule "submodules/CMakeTools"]
+	path = submodules/CMakeTools
+	url = https://oceasoft.visualstudio.com/Libraries/_git/CMakeTools
