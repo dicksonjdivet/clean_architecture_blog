@@ -14,6 +14,7 @@ class GetPosts {
 public:
 	GetPosts(entities::IPostRepository& repository);
 
+	/// Return all the entities present in the repository
 	std::vector<entities::Post> execute();
 
 private:

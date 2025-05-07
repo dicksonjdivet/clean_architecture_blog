@@ -1,16 +1,13 @@
 #pragma once
 
+#include <blog/use_cases/UseCases.h>
+
+/// In the infrastructure module, we can import
+/// external dependencies like ohttp
+#include <OHTTP/IHTTPServer.h>
+
 #include <cstdint>
-
 #include <memory>
-
-namespace use_cases {
-class UseCases;
-}
-
-namespace ohttp {
-class IHTTPServer;
-}
 
 namespace infrastructure {
 
